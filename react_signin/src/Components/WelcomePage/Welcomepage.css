@@ -1,0 +1,19 @@
+/* Add this to your existing CSS file */
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.welcome-container h1 {
+    color: #dddae0;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+  
+.welcome-container p {
+    color: #fcd839;
+    font-size: 18px;
+}
