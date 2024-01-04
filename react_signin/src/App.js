@@ -1,17 +1,15 @@
 import './App.css';
-import { useState } from 'react';
-import { LoginSignup } from './Components/LoginSignup/LoginSignup';
-import WelcomePage from './Components/WelcomePage/WelcomePage';
+import Navigations from "./routes/index.js"
 
 
 function App() {
 
-  const [isLoggedIn, setLoggedIn] = useState(false);
+  // const [isLoggedIn, setLoggedIn] = useState(false);
 
   return (
-    <>
-      {isLoggedIn ? (<WelcomePage />) : (<LoginSignup/>)}
-    </>
+    <div className='main'>
+      <Navigations/>
+    </div>
   );
 }
 
